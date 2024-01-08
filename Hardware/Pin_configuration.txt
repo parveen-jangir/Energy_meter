@@ -1,0 +1,29 @@
+RFID (RC522) module :
+  SDA/SS = 5
+  SCK    = 18
+  MOSI   = 23
+  MISO   = 19
+  GND    = GND
+  RST    = 0
+  3.3v   = 3.3v
+
+GSM (SIM800L) module :
+  NET    = External Antenna
+  VCC    = External supply (3.4v to 4.4v)
+  RST    = 
+  RXD    = 2
+  TXD    = 4
+  GND    = GND
+
+PZEM-004T module (for energy metering)
+  5V     = 5V
+  RX     = 17
+  TX     = 16
+  GND    = GND
+
+LCD Display
+  SCL    = 22
+  SDA    = 21
+  5V     = 5V
+  GND    = GND
+
