@@ -1,3 +1,5 @@
+Important info: All defined pins of ESP32 are GPIO pins
+
 RFID (RC522) module :
   SDA/SS = 15
   SCK    = 18
@@ -10,7 +12,7 @@ RFID (RC522) module :
 GSM (SIM800L) module :
   NET    = External Antenna
   VCC    = External supply (3.4v to 4.4v)
-  RST    = 35
+  RST    = 14
   RXD    = 2
   TXD    = 4
   GND    = GND
