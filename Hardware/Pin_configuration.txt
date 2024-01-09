@@ -1,5 +1,5 @@
 RFID (RC522) module :
-  SDA/SS = 5
+  SDA/SS = 15
   SCK    = 18
   MOSI   = 23
   MISO   = 19
@@ -10,20 +10,42 @@ RFID (RC522) module :
 GSM (SIM800L) module :
   NET    = External Antenna
   VCC    = External supply (3.4v to 4.4v)
-  RST    = 
+  RST    = 35
   RXD    = 2
   TXD    = 4
   GND    = GND
 
-PZEM-004T module (for energy metering)
+PZEM-004T module (for energy metering) :
   5V     = 5V
   RX     = 17
   TX     = 16
   GND    = GND
 
-LCD Display
+LCD Display :
   SCL    = 22
   SDA    = 21
   5V     = 5V
   GND    = GND
 
+RGB LED :
+  R      = 36
+  G      = 39
+  B      = 34
+  GND    = GND
+
+
+RELAY (For on and off supply) :
+  RELAY  = 27
+
+DOOR SWITCH (limit switch) :
+  DOOR   = 26
+
+ADE9153 (Energy metering IC) :
+  MOSI   = 23
+  MISO   = 19
+  SCLK   = 18
+  SS     = 5
+  CF1    = 32
+  CF2    = 35
+  RST    = 33
+  IRQ    = 25
